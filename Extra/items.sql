@@ -1,0 +1,4 @@
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `groupId`, `metadata`, `desc`, `degradation`, `weight`) VALUES ('moneystack', 'Money Stack', 10, 1, 'item_standard', 1, 1, '{}', 'Stack of Money', 0, 0.25);
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `groupId`, `metadata`, `desc`, `degradation`, `weight`) VALUES ('goldstack', 'Gold Stack', 10, 1, 'item_standard', 1, 1, '{}', 'Stack of Gold', 0, 0.25);
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `groupId`, `metadata`, `desc`, `degradation`, `weight`) VALUES ('moneyclip', 'Money Clip', 10, 1, 'item_standard', 1, 1, '{}', 'Money Clip', 0, 0.25);
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `groupId`, `metadata`, `desc`, `degradation`, `weight`) VALUES ('goldbag', 'Gold Bag', 10, 1, 'item_standard', 1, 1, '{}', 'Gold Bag', 0, 0.25);
