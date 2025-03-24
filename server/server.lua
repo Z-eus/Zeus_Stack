@@ -26,7 +26,7 @@ exports.vorp_inventory:registerUsableItem(Config.MoneyStackItem, function(data)
     local amount = metadata and metadata.amount or 0
 
     if amount > 0 then
-        exports.vorp_inventory:subItem(data.source, Config.MoneyStackItem, 1, {})
+        exports.vorp_inventory:subItem(data.source, Config.MoneyStackItem, 1)
         AddMoneyForMoneyStack(data.source, amount)
 
         if Config.CloseInventory then
@@ -119,7 +119,7 @@ exports.vorp_inventory:registerUsableItem(Config.GoldStackItem, function(data)
     local amount = metadata and metadata.amount or 0
 
     if amount > 0 then
-        exports.vorp_inventory:subItem(data.source, Config.GoldStackItem, 1, {})
+        exports.vorp_inventory:subItem(data.source, Config.GoldStackItem, 1)
         AddGoldForGoldStack(data.source, amount)
 
         if Config.CloseInventory then
